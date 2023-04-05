@@ -74,7 +74,7 @@ body {
 }
 
 section {
-  width:40%;
+  width:50%;
   float: none;
   margin: auto;
 }
@@ -96,9 +96,6 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3 {
   line-height:1.3;
   font-weight: 600;
-}
-
-h1, h2, h3 {
   display: block;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
@@ -332,13 +329,14 @@ td {
 .navigationbar {
   overflow: hidden;
   background-color: silver;
+  margin-bottom: 100px;
 }
 
 /* Style the links inside the navigation bar */
 .navigationbar a {
   float: left;
   font-size: 18px;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; /* undo default underline*/
