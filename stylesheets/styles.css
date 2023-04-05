@@ -77,6 +77,7 @@ section {
   width:50%;
   float: none;
   margin: auto;
+  padding-bottom: 3em;
 }
 
 p, ul, ol, table, dl {
@@ -103,7 +104,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 34px;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   border-bottom: 0;
 }
 
@@ -175,7 +176,7 @@ blockquote {
 }
 
 dl, dt, dd, dl p {
-  font-color: #444;
+  color: #444;
 }
 
 dl dt {
@@ -273,7 +274,6 @@ th {
 td {
   padding: 2px;
   background: #eee;
-  font-size: 14px;
  }
 
 
@@ -366,3 +366,26 @@ td {
 
 
 /* (end) Navigation bar =========================================== */
+
+
+
+
+
+/* (start) Programme formatting =================================== */
+
+.time {
+  background-color: rgb(213, 213, 213);
+  padding: 0px 3px 0px;
+}
+
+.time-poster {
+  background-color: rgb(164, 202, 125);
+  padding: 0px 3px 0px;
+}
+
+.time-break {
+  background-color: rgb(119, 184, 209);
+  padding: 0px 3px 0px;
+}
+
+/* (end) Programme formatting ===================================== */
