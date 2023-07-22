@@ -306,7 +306,6 @@ table tr:nth-child(even) td{
   line-height: 3em;
 }
 
-
 .instructions_list li {
   margin: 20px 0;
 }
@@ -340,12 +339,13 @@ table tr:nth-child(even) td{
 /* Style the links inside the navigation bar */
 .navigationbar a {
   float: left;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; /* undo default underline*/
   font-weight: normal;
+  height: 100%;
 }
 
 /* Change the color of links on hover */
@@ -354,18 +354,8 @@ table tr:nth-child(even) td{
 }
 
 /* Put logo (links to the homepage) to the left on the navigation bar. */
-.logo_navigationbar a {
-  float: left;
-  padding: 9px 16px 0px;
-}
-
-/* Background logo should not change when hovering over it (FUTURE: swap to gif-version ) */
-.logo_navigationbar a:hover {
-  background-color: black;
-}
-
-/* Put logo (links to the homepage) to the left on the navigation bar. */
-.logo_navigationbar img {
+.logo_navigationbar img{
+  float: right;
   padding: 0px;
 }
 
