@@ -332,7 +332,7 @@ table tr:nth-child(even) td{
 /* Add a black background color to the top navigation */
 .navigationbar {
   overflow: hidden;
-  background-color: silver;
+  background-color: black;
   margin-bottom: 100px;
 }
 
@@ -340,9 +340,12 @@ table tr:nth-child(even) td{
 .navigationbar a {
   float: left;
   font-size: 20px;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-decoration: none; /* undo default underline*/
   font-weight: normal;
   height: 100%;
