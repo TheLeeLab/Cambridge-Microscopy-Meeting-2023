@@ -331,24 +331,34 @@ table tr:nth-child(even) td{
 
 /* Add a black background color to the top navigation */
 .navigationbar {
-  overflow: hidden;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
   background-color: black;
-  margin-bottom: 100px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.navigationbar ul {
+  list-style: none;
+  display: inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+}
+
+.navigationbar li {
+  display: inline;
 }
 
 /* Style the links inside the navigation bar */
 .navigationbar a {
   float: left;
+  text-decoration: none; /* undo default underline*/
+  padding: 0 30px; /* variable width */
+  font-weight: normal;
   font-size: 20px;
   color: white;
-  text-align: center;
-  padding-top: 18px;
-  padding-bottom: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
-  text-decoration: none; /* undo default underline*/
-  font-weight: normal;
-  height: 100%;
+  padding: 16px;
+  width: 110px;
 }
 
 /* Change the color of links on hover */
@@ -371,7 +381,7 @@ table tr:nth-child(even) td{
 .button {
   display: inline-block;
   border-radius: 5px;
-  background-color: silver;
+  background-color: rgba(200, 0, 200, 1);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -411,6 +421,42 @@ table tr:nth-child(even) td{
 /* (end) Button formatting ======================================== */
 
 
+/* (start) Banner image formatting ================================ */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url("../images/cells.png");
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.hero-text {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 20px;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: normal;
+  font-style: normal;
+  height: 100%;
+}
+
+.hero-text h1 {
+  text-align: center;
+  color: white;
+}
+/* (end) Banner image formatting ================================== */
+
 
 /* (start) Programme formatting =================================== */
 
@@ -430,3 +476,10 @@ table tr:nth-child(even) td{
 }
 
 /* (end) Programme formatting ===================================== */
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
