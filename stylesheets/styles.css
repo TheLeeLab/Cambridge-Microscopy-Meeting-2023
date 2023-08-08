@@ -329,6 +329,11 @@ table tr:nth-child(even) td{
 
 /* (start) Navigation bar ========================================= */
 
+
+header {
+  background-color: black;
+}
+
 /* Add a black background color to the top navigation */
 .navigationbar {
   display: table;
@@ -337,6 +342,7 @@ table tr:nth-child(even) td{
   background-color: black;
   color: black;
   margin-bottom: 50px;
+  padding: auto;
 }
 
 /* Style the links inside the navigation bar */
@@ -432,7 +438,7 @@ table tr:nth-child(even) td{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-bottom: 1px;
+  border-bottom: 1px solid white; /* white line below the image */
 }
 
 .hero-text {
