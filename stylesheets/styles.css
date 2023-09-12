@@ -221,6 +221,15 @@ p img {
   border: none;
 }
 
+.logos_row img {
+  display: inline;
+  margin: 1%;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
+
 figure {
   border: 1px solid #ccc;
   background: white;
@@ -481,6 +490,8 @@ header {
 }
 
 /* (end) Programme formatting ===================================== */
+
+
 
 
 .center {
