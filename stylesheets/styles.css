@@ -271,26 +271,41 @@ table caption {
 
 th {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
   font-weight: 700;
-  padding: 2px;
+  padding-right: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
   background: #e0e0e0;
   color: black;
  }
 
 td {
-  padding: 2px;
+  padding-right: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background: #eee;
  }
 
- table tr:nth-child(odd) td{
+/*
+table tr:nth-child(odd) td{
   background-color: rgb(230, 230, 230);
 }
 table tr:nth-child(even) td{
   background-color: rgb(240, 240, 240);
 }
+*/
 
+.event_break td {
+  background-color: rgb(208, 239, 251);
+}
 
+.session_header td {
+  background-color: white;
+  padding-top: 20px; 
+  padding-left: 0px;
+}
 
 /* Wrapper */
 .wrapper {
@@ -472,30 +487,10 @@ header {
 /* (end) Banner image formatting ================================== */
 
 
-/* (start) Programme formatting =================================== */
-
-.time {
-  background-color: rgb(213, 213, 213);
-  padding: 0px 3px 0px;
-}
-
-.time-poster {
-  background-color: rgb(164, 202, 125);
-  padding: 0px 3px 0px;
-}
-
-.time-break {
-  background-color: rgb(119, 184, 209);
-  padding: 0px 3px 0px;
-}
-
-/* (end) Programme formatting ===================================== */
-
-
-
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+
