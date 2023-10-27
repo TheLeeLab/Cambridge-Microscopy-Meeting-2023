@@ -297,8 +297,15 @@ table tr:nth-child(even) td{
 }
 */
 
+
+/* Programme formatting =================== (start) */
+
 .event_break td {
   background-color: rgb(208, 239, 251);
+}
+
+.event_poster_flash_round td {
+  background-color: rgb(224, 236, 209);
 }
 
 .session_header td {
@@ -306,6 +313,13 @@ table tr:nth-child(even) td{
   padding-top: 20px; 
   padding-left: 0px;
 }
+
+.time_program {
+  white-space: nowrap;
+}
+/* Programme formatting ===================== (end) */
+
+
 
 /* Wrapper */
 .wrapper {
@@ -492,5 +506,3 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
-
