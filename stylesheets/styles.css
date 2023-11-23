@@ -308,6 +308,10 @@ table tr:nth-child(even) td{
   background-color: rgb(224, 236, 209);
 }
 
+.event_sponsor_technobite td {
+  background-color: rgb(255, 216, 208);
+}
+
 .session_header td {
   background-color: white;
   padding-top: 20px; 
